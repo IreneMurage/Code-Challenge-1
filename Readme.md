@@ -54,13 +54,4 @@ Each folder contains a JavaScript file with a complete solution to the respectiv
 
 ## License 
 - This project is licensed under the MIT License — feel free to use, modify, and share.
-##  How to Run
 
-You can run the scripts in two ways:
-
-
-### 1. Using Node.js
-``` bash 
-node chaiCalculator/chai.js
-node bodaFareCalculator/fare.js
-node mobileMoneyEstimator/fee.js
