@@ -1,6 +1,6 @@
 function calculateChaiIngredients(){
-    const userInput = prompt ("Karibu! How many cups of Chai Bora would you like to make?");
-    const numberOfCups = Number(userInput);
+    prompt ="Karibu! How many cups of Chai Bora would you like to make?";
+    const numberOfCups = Number;
 
     const waterPerCup = 200;
     const milkPerCup = 50;
