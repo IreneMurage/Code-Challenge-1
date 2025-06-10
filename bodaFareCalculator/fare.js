@@ -9,4 +9,4 @@ function calculateBodaFare(){
     const output = ("uko kwote ni" + distanceInKm + " " + "Ukikalia Pikipiki: KES" + baseFare + " " + "Mpaka Uko: KES" +  totalFare + " " + "Panda Pikipiki!");
     console.log(output)
 }
-calculateBodaFare();
+calculateBodaFare(); 
