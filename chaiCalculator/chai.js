@@ -20,7 +20,6 @@ function calculateChaiIngredients(){
     const totalSugar = numberOfCups * sugarPerCup;
     //console.log (totalSugar);
 
-    //calculateChaiIngredients();
     
 }
 calculateChaiIngredients();
