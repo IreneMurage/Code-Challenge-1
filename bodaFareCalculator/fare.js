@@ -1,6 +1,6 @@
 function calculateBodaFare(){
-    prompt = "Unafika wapi Mkubwa? Kilometer ngapi?:"; 
-    const distanceInKm = Number; 
+    const distanceInKmStr = window.prompt = "Unafika wapi Mkubwa? Kilometer ngapi?:"; 
+    const distanceInKm = parseInt(distanceInKmStr); 
 
     const baseFare = 50;
     const chargePerKm = 15;

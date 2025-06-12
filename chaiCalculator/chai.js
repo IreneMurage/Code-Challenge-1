@@ -1,6 +1,6 @@
 function calculateChaiIngredients(){
-    prompt ="Karibu! How many cups of Chai Bora would you like to make?";
-    const numberOfCups = Number;
+    const numberOfCupsStr = window.prompt =("Karibu! How many cups of Chai Bora would you like to make?");
+    const numberOfCups = parseInt (numberOfCupsStr);
 
     const waterPerCup = 200;
     const milkPerCup = 50;
@@ -9,16 +9,18 @@ function calculateChaiIngredients(){
 
 
     const totalWater = numberOfCups * waterPerCup;
-    console.log (totalWater);
+    //console.log (totalWater);
 
     const totalMilk = numberOfCups * milkPerCup;
-    console.log ( totalMilk);
+    //console.log ( totalMilk);
 
     const totalTeaLeaves = numberOfCups * teaLeavesPerCup;
-    console.log (totalTeaLeaves);
+    //console.log (totalTeaLeaves);
 
     const totalSugar = numberOfCups * sugarPerCup;
-    console.log (totalSugar);
+    //console.log (totalSugar);
+
+    //calculateChaiIngredients();
     
 }
 calculateChaiIngredients();
